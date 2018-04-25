@@ -1,16 +1,15 @@
 // 1. Create an array that holds at least five items. Each item should be a string that describes your experiance at NSS so far.
 const experiences = ['Hard', 'Stressful', 'Rewarding', 'Exciting', 'Mistakes were made.']
 
+
 // 2. Iterate over the array and console log each item in the array.
 experiences.forEach(function (adjectives) {
     console.log(adjectives)
 })
-
-// Simplified with arrow function
-experiences.forEach(adjectives => console.log(adjectives))
-
-// Simpplified even futher
-experiences.forEach(console.log)
+    // Above Simplified with arrow function
+    experiences.forEach(adjectives => console.log(adjectives))
+    // Above Simplified even futher
+    experiences.forEach(console.log)
 
 
 // 1. Write a function that takes two arguments. This function should return the concatenated value of the two arguments.
